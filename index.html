@@ -4,13 +4,16 @@
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0 ">
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
-  <script src="app.js"></script>
+  
 </head>
 <body>
  <div class="card">
     <div class="search">
         <input type="text" placeholder="enter city name" spellcheck="false ">
         <button><img src="/images/search.png" alt="search button "></button>
+    </div>
+    <div class="error">
+        <p>Invalid city name</p>
     </div>
     <div class="weather">
         <img src="/images/rain.png " class="weather-icon">
@@ -34,5 +37,6 @@
         </div>
     </div>
  </div>
+ <script src="app.js"></script>
 </body>
 </html> 
